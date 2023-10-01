@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Login = () => {
     return (
         <div class="w-full max-w-md mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800 mt-24 lg:mt-48 mb-32">
-        <div class="px-6 py-4">
+        <div class="px-12 py-12">
 
             <h3 class="text-start mt-3 text-xl font-medium text-gray-600 dark:text-gray-200">Welcome Back</h3>
 
