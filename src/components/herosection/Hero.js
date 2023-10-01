@@ -1,5 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import whey from '../../assets/images (1).jpg';
+import wheyTwo from '../../assets/images (2).jpg'
+import wheyThree from '../../assets/images.jpg';
+import cal from '../../assets/cal.webp';
+import gatro from '../../assets/Gatorade-Blue-Bolt-Drink.png';
+import wheyFour from '../../assets/sports.jpg';
+import vitamin from '../../assets/vitamins.webp';
 
 const Hero = () => {
     return (
@@ -9,7 +16,7 @@ const Hero = () => {
                     <div className="relative mx-auto w-full  p-4 sm:static sm:px-6  ">
                         <div className="sm:max-w-xl">
                             <h1 className="text-start text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                                Summer styles are finally here
+                                Your fitness products are finally here
                             </h1>
                             <p className="text-start mt-4 text-xl text-gray-500">
                                 This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care
@@ -36,37 +43,14 @@ const Hero = () => {
                                             <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-12">
                                                 <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                                                     <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                                                        src={whey}
                                                         alt=""
                                                         className="h-full w-full object-cover object-center"
                                                     />
                                                 </div>
                                                 <div className="h-64 w-44 overflow-hidden rounded-lg">
                                                     <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                                                        alt=""
-                                                        className="h-full w-full object-cover object-center"
-                                                    />
-                                                </div>
-                                            </div>
-                                            <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                                                <div className="h-64 w-44 overflow-hidden rounded-lg">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                                                        alt=""
-                                                        className="h-full w-full object-cover object-center"
-                                                    />
-                                                </div>
-                                                <div className="h-64 w-44 overflow-hidden rounded-lg">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                                                        alt=""
-                                                        className="h-full w-full object-cover object-center"
-                                                    />
-                                                </div>
-                                                <div className="h-64 w-44 overflow-hidden rounded-lg">
-                                                    <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
+                                                        src={cal}
                                                         alt=""
                                                         className="h-full w-full object-cover object-center"
                                                     />
@@ -75,16 +59,39 @@ const Hero = () => {
                                             <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                                                 <div className="h-64 w-44 overflow-hidden rounded-lg">
                                                     <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                                                        src={vitamin}
                                                         alt=""
                                                         className="h-full w-full object-cover object-center"
                                                     />
                                                 </div>
                                                 <div className="h-64 w-44 overflow-hidden rounded-lg">
                                                     <img
-                                                        src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                                                        src={gatro}
                                                         alt=""
                                                         className="h-full w-full object-cover object-center"
+                                                    />
+                                                </div>
+                                                <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                                    <img
+                                                        src={wheyTwo}
+                                                        alt=""
+                                                        className="h-full w-full object-cover object-center"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                                                <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                                    <img
+                                                        src={wheyThree}
+                                                        alt=""
+                                                        className="h-full w-full object-cover object-center"
+                                                    />
+                                                </div>
+                                                <div className="h-64 w-44 overflow-hidden rounded-lg">
+                                                    <img
+                                                        src={wheyFour}
+                                                        alt=""
+                                                        className="h-full w-full object-cover object-center "
                                                     />
                                                 </div>
                                             </div>
